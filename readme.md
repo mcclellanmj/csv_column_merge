@@ -4,7 +4,7 @@ Utility will read csv from std input and output combined columns to stdout.  All
 
 Usage
 -----
-merge_csv_columns.py [--ignore_empty] columns [columns]
+merge_csv_columns.py [--delimiter=" "] [--ignore_empty] columns [columns]
 
 The columns must be integers with the first column in the csv being column 1
 --ignore_empty flag can be used if you don't want to join a cell that has no content.  This may be desirable when you don't want something like first_name  last_name because the middle name column is empty.
